@@ -1,9 +1,4 @@
-# robots.txt - Portfolio Romain Lambert
-# https://romain-lambert.dev
-
-# Autoriser tous les moteurs de recherche à indexer le site
 User-agent: *
 Allow: /
 
-# Sitemap pour aider les moteurs de recherche
-Sitemap: https://romain-lambert.dev/sitemap.xml
+Sitemap: https://roro627.github.io/portfolio/sitemap.xml
