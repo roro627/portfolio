@@ -1,5 +1,6 @@
 {
   "name": "Portfolio Romain Lambert",
+  "description": "Portfolio de Romain Lambert, développeur web et mobile fullstack.",
   "short_name": "Portfolio",
   "start_url": "/",
   "display": "standalone",
