@@ -9,7 +9,6 @@ const STATIC_ASSETS = [
   '/',
   '/manifest.json',
   '/favicon.ico',
-  // Ajoutez d'autres ressources statiques critiques ici
 ]
 
 // Installation du Service Worker
@@ -68,7 +67,6 @@ self.addEventListener('fetch', (event) => {
       request.url.includes('fonts.gstatic.com') ||
       request.url.includes('reasonlabsapi.com') || 
       request.url.includes('ab.reasonlabsapi.com')) {
-    // Ne pas intercepter du tout ces requêtes
     return
   }
   
