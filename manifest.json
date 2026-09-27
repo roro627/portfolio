@@ -2,7 +2,7 @@
   "name": "Portfolio Romain Lambert",
   "description": "Portfolio de Romain Lambert, développeur web et mobile fullstack.",
   "short_name": "Portfolio",
-  "start_url": "/",
+  "start_url": "/portfolio/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#3b82f6",
@@ -11,11 +11,7 @@
       "src": "icons/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml"
-    },
-    {
-      "src": "/images/avatars/avatar.webp",
-      "sizes": "192x192",
-      "type": "image/webp"
     }
-  ]
+  ],
+  "scope": "/portfolio/"
 }
